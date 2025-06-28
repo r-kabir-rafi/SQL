@@ -1,6 +1,7 @@
 -- Write your PostgreSQL query statement below
 
 SELECT employee_id
+
 FROM Employees e 
 WHERE 
         e.salary < 30000 
