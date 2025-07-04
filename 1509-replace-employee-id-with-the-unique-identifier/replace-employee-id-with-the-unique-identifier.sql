@@ -1,7 +1,10 @@
-# Write your MySQL query statement below
+-- Write your PostgreSQL query statement below
 
-
-SELECT eni.unique_id, e.name
-FROM Employees e
-LEFT JOIN EmployeeUNI eni
-ON e.id = eni.id;
+SELECT 
+    eu.unique_id, e.name 
+FROM 
+    Employees e
+LEFT JOIN 
+    EmployeeUNI eu
+ON 
+    e.id = eu.id;
