@@ -3,12 +3,11 @@
 SELECT 
     e.name,
     b.bonus
-FROM
+FROM 
     Employee e
-LEFT JOIN
+LEFT JOIN 
     Bonus b
 ON 
-    e.empID = b.empID
+    e.empId = b.empId
 WHERE 
-    b.bonus<1000 OR 
-    b.bonus IS NULL;
+    b.bonus IS NULL OR b.bonus < 1000;
