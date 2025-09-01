@@ -1,4 +1,3 @@
--- Write your PostgreSQL query statement below
 
 SELECT s.name
 FROM SalesPerson s
