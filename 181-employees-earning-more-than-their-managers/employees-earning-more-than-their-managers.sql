@@ -1,13 +1,13 @@
--- Write your PostgreSQL query statement below
-
 SELECT 
-    e.name AS Employee
+    e.name as Employee
 FROM 
     Employee e
 JOIN 
     Employee m
-    ON
+ON 
     m.id = e.managerId
-where
+WHERE
     e.salary > m.salary;
+
+
     
