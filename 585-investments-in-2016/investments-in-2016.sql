@@ -17,4 +17,4 @@ AND (lat, lon) in
         GROUP BY lat, lon
         having count(*) = 1
     )
-;
+; 
